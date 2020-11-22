@@ -1,0 +1,38 @@
+POST (url)/user/create
+Request Body
+{
+    "email" : "string",
+    "phone" : "string"
+}
+Response Body
+{
+    "id" : "string",
+    "email" : "string",
+    "phone" : "string"
+}
+
+=======================================
+
+POST (url)/user/check
+Request Body
+{
+    "email" : "string",
+    "phone" : "string"
+}
+Response Body
+{
+    "id" : "string"
+}
+
+=======================================
+
+POST (url)/voucher/create
+Request Body
+{
+    "userId" : "string"
+}
+Response Body
+{
+    "VocherId" : "string",
+    "UserId" : "string"
+}
